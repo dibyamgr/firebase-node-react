@@ -1,0 +1,21 @@
+Firebase: Realtime Database 
+
+- NoSQL database by Google that lets you store and access data in realtime.
+
+- All Firebase Realtime Database data is stored as JSON Objects.
+
+
+Setting up a Firebase Console 
+
+1. Go to Firebase console and create a project
+2.  Give a name to your project, uncheck "Enable Google Analytics for this project" if you do not wish to enable analytics for the project and click on continue to create the project.
+3. Select Web on the Project dashboard:
+4. Give a name to your app, then click on "Register app"
+5. That will generate your app's Firebase configuration which we will need in our project. Copy it for later use.
+
+6. Add Firebase SDK
+
+npm install firebase
+
+7. Then, initialize Firebase and begin using the SDKs for the products you'd like to use.
+
